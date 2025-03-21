@@ -1,0 +1,16 @@
+[package]
+name = "Shortcuts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.8.1", features = ["macros"] }
+serde = { version = "1.0.219", features = ["derive"] }
+tera = { version = "1.20", default-features = false}
+tera-hot-reload = "0.2.3"
+tokio = { version  = "1.39.2", features = ["full"] }
+tower-http = { version = "0.6.1", features = ["fs"] }
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tracing = "^0.1.40"
+url = "^2.5.4"
+uuid = { version = "1.7.0", features = ["v4", "serde"] }

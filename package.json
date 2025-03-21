@@ -1,0 +1,19 @@
+{
+  "name": "Shortcuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./styles/tailwind.css -o ./assets/main.css --watch",
+    "prod": "npx tailwindcss -i ./styles/tailwind.css -o ./assets/main.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.0.14"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14"
+  }
+}
